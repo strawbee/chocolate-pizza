@@ -1,0 +1,86 @@
+* {
+  box-style: border-box;
+}
+
+body {
+  margin: auto;
+  font-family: sans-serif;
+  font-size: 16px;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+#wrapper {
+  width: 901px;
+  margin: 0 auto;
+}
+
+header {
+  text-align: left;
+  height: 100px;
+  margin: 40px 0 20px 0;
+}
+
+#logoImage {
+  float: left;
+  margin-right: 5px;
+}
+
+#siteName {
+  font-size: 2.2em;
+  font-family: Yellowtail, cursive;
+}
+
+#separatorImage {
+  margin-top: 20px;
+  width: 901px;
+  height: auto;
+}
+
+.subText {
+  text-transform: uppercase;
+  font-size: 0.7em;
+  color: silver;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-weight: 100;
+}
+
+ul {
+  margin: -40px 0 0 0;
+  padding: 0;
+  list-style-type: none;
+  float: right;
+}
+
+li {
+  display: inline-block;
+  width: 22px;
+}
+
+#pint-icon {
+  margin-right: 8px;
+}
+
+h1 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 2.5em;
+  font-weight: 900;
+  margin-bottom: 7px;
+}
+
+.lightgrey {
+  color: lightgrey;
+}
+
+#printP {
+  display: inline-block;
+  float: right;
+  margin-top: -11px;
+}
+
+#heroImage {
+  margin: 20px 0;
+}
