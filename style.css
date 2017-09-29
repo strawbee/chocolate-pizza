@@ -34,7 +34,7 @@ header {
   font-family: Yellowtail, cursive;
 }
 
-#separatorImage {
+.separatorImage {
   margin-top: 20px;
   width: 901px;
   height: auto;
@@ -48,14 +48,14 @@ header {
   font-weight: 100;
 }
 
-ul {
+#iconsUl {
   margin: -40px 0 0 0;
   padding: 0;
   list-style-type: none;
   float: right;
 }
 
-li {
+#iconsUl li {
   display: inline-block;
   width: 22px;
 }
@@ -75,7 +75,7 @@ h1 {
   color: lightgrey;
 }
 
-#printP {
+#printSpan {
   display: inline-block;
   float: right;
   margin-top: -11px;
@@ -83,4 +83,120 @@ h1 {
 
 #heroImage {
   margin: 20px 0;
+}
+
+.descriptionText {
+  text-indent: 35px;
+  font-family: Lora, serif;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  font-size: 1.05em;
+  color: gray;
+  line-height: 1.5em;
+}
+
+#ingredients {
+  background: url("images/list-bg.png");
+  margin: 10px 0 30px 0;
+  border-top: solid 1px #efe9e6;
+  padding: 40px 60px;
+}
+
+#ingredientsUl {
+  list-style-image: url('images/emptybox.jpg');
+  list-style-position: inside;
+  font-family: 'Patrick Hand', cursive;
+  color: gray;
+  font-size: 1.5em;
+  line-height: 1.3em;
+  display: inline-block;
+  width: 390px;
+  font-weight: 100;
+  letter-spacing: 0.02em;
+}
+
+
+
+.floatleft {
+  float: left;
+}
+
+.floatright {
+  float: right;
+}
+
+#crossedLi {
+  list-style-image: url('images/checkedbox.jpg');
+  text-decoration: line-through;
+}
+
+footer {
+  margin: 20px 0 50px 0;
+  font-family: Lora, serif;
+  color: gray;
+}
+
+#authorImage {
+  float: left;
+  margin-right: 15px;
+}
+
+#author {
+  font-size: 1.25em;
+  font-weight: 900;
+  letter-spacing: .03em;
+  margin-bottom: 13px;
+}
+
+#authordescrip {
+  width: 650px;
+  line-height: 1.45em;
+}
+
+#shareButton {
+  display: inline-block;
+  float: right;
+  background: #bc7058;
+  padding: 17px 35px;
+  border: 0;
+  color: white;
+  text-transform: uppercase;
+  margin-top: -75px;
+  font-size: 1.15em;
+  font-weight: 100;
+  font-family: 'Roboto Condensed', serif;
+}
+
+#shareButton:hover {
+  background: #fcf4de;
+  background: linear-gradient(#fcf4de, #f7e3cf);
+  border: solid 1px #efe9e6;
+  color: gray;
+}
+
+#bottomHr {
+  margin: 80px 0;
+}
+
+hr {
+  display: inline-block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #e0e0e0;
+  width: 47%;
+  margin: 1em 0;
+  padding: 0;
+}
+
+#bottomlogo {
+  margin: 0 10px;
+}
+
+#copyright {
+  color: #afafaf;
+  font-family: Lora, sans-serif;
+  font-size: 0.85em;
+  line-height: 1.5em;
+  text-align: center;
+  margin: 30px 0;
 }
